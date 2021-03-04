@@ -1,0 +1,132 @@
+html, body,            
+ul, ol, li,            
+h1, h2, h3, h4, h5, h6, p, div {            
+margin: 0;            
+padding: 0;            
+}
+body {
+  margin: 0;
+  font-family: courier;
+}
+a {
+  text-decoration: none;
+}
+.container{
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+header{
+    height: 50px;
+    width: 100%;
+    background-color: #3838387e;
+}
+.header-left{
+    float: left;
+    color: white;
+}
+.header-left h2{
+    width: 130px;
+    margin-top: 12px;
+}
+.header-right{
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+}
+.header-right:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.header-right a{
+    color: white;
+    line-height: 50px;
+    padding: 0px 25px;
+    display: block;
+}
+.header-list{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(48, 48, 48);
+}
+.header-list li{
+    float: left;
+    list-style: none;
+    color: white;
+    margin-right: 5px;
+    margin-top: 5px;
+    border-right: 1px solid white;
+    padding-right: 5px;
+    cursor: pointer;
+}
+.top-banner{
+    background-image: url(IMG/gelap.jpg);
+    padding: 180px 0 100px 0;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+.top-banner h1{
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+.top-banner p{
+    opacity: 0.7;
+    margin-bottom: 3px;
+}
+.btn{
+    margin: 20px 0;
+    padding: 12px 24px;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius:  4px;
+    background-color: #78ccb1;
+    cursor: pointer;
+}
+.btn a{
+    color: white;
+}
+.btn:hover{
+    opacity: 1;
+}
+.konten{
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+.konten h2,h4{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+}
+.pesan h3{
+    margin: 20px 0;
+    font-weight: normal;
+    border-bottom: 1px solid rgb(54, 54, 54);
+    padding-bottom: 10px;
+}
+.pesan{
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+}
+.btn-pesan{
+    width: 70px;
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+    margin: 0 500px;
+}
+.btn-pesan:active{
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+    padding: 20px 0;
+}
